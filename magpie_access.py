@@ -10,6 +10,8 @@ from glob import glob
 from pymatgen import Element
 from pymatgen.core.periodic_table import _pt_data
 
+module_dir = os.path.dirname(os.path.abspath(__file__))
+
 class MagpieData():
 
     def __init__(self):
