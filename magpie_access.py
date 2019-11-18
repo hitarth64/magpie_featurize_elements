@@ -51,8 +51,8 @@ class MagpieData():
               list_of_dfs.append(pd.DataFrame.from_dict(self.all_elemental_props[i],orient='index'))
               list_of_dfs[-1] = list_of_dfs[-1].rename(columns={0:i})
             else:
-              tmp = pd.DataFrame.from_dict(mpg.all_elemental_props['OxidationStates'], orient='index').index.values
-              list_of_dfs.append(pd.DataFrame([[[j for j in k if str(j)!='nan']] for k in pd.DataFrame.from_dict(mpg.all_elemental_props['OxidationStates'],orient='index').values.tolist()], index=tmp, columns=[i])) 
+              tmp = pd.DataFrame.from_dict(self.all_elemental_props['OxidationStates'], orient='index').index.values
+              list_of_dfs.append(pd.DataFrame([[[j for j in k if str(j)!='nan']] for k in pd.DataFrame.from_dict(self.all_elemental_props['OxidationStates'],orient='index').values.tolist()], index=tmp, columns=[i])) 
         self.dfp = pd.concat(list_of_dfs,axis=1)
 
     def get_elemental_property(self, elem, property_name):
