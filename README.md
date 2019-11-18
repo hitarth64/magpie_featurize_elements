@@ -18,6 +18,6 @@ mgd = MagpieData()
 dfp = mgd.dfp
 
 # Access individual property for an element (Pb for example)
-print(mgd.all_elemental_props['ShearModulus']['Pb']
+print(mgd.all_elemental_props['ShearModulus']['Pb'])
 
 ```
