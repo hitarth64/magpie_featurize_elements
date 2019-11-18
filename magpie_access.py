@@ -7,6 +7,8 @@ import abc
 import numpy as np
 import pandas as pd
 from glob import glob
+from pymatgen import Element
+from pymatgen.core.periodic_table import _pt_data
 
 class MagpieData():
 
