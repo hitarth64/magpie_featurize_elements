@@ -1,4 +1,4 @@
-# python_featurize_elements
+# MAGPIE FEATURIZATION
 Python module to generate chemistry representations of the elements. 
 
 Features borrowed from Magpie library which is Java based (https://bitbucket.org/wolverton/magpie/src). 
