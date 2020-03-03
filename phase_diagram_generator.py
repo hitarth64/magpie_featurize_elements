@@ -16,3 +16,5 @@ pd = PhaseDiagram(processed_entries)
 vrun = Vasprun('vasprun.xml')
 struct = AseAtomsAdaptor.get_structure(read('POSCAR'))
 obj = PDEntry(struct.composition, energy=vrun.final_energy)
+
+pd.get_form_energy_per_atom(obj)
