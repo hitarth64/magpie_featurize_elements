@@ -3,6 +3,7 @@ from pymatgen.entries.compatibility import MaterialsProjectCompatibility
 from pymatgen.analysis.phase_diagram import *
 from pymatgen.io.ase import *
 from pymatgen.io.vasp import Vasprun
+from ase.io import read
 
 MAPI_KEY = 'your_mapi_key'
 mpr = MPRester(MAPI_KEY)
