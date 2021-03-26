@@ -1,3 +1,6 @@
+#Hitarth Choubisa
+#https://github.com/hitarth64/magpie_featurize_elements
+
 from pymatgen import MPRester
 from pymatgen.entries.compatibility import MaterialsProjectCompatibility
 from pymatgen.analysis.phase_diagram import *
