@@ -22,3 +22,4 @@ struct = AseAtomsAdaptor.get_structure(read('POSCAR'))
 obj = PDEntry(struct.composition, energy=vrun.final_energy)
 
 pd.get_form_energy_per_atom(obj)
+pd.get_decomp_and_e_above_hull(obj)
