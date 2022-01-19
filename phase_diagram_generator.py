@@ -1,14 +1,14 @@
 #Hitarth Choubisa
 #https://github.com/hitarth64/magpie_featurize_elements
 
-from pymatgen import MPRester
+from pymatgen.ext.matproj import MPRester
 from pymatgen.entries.compatibility import MaterialsProjectCompatibility
 from pymatgen.analysis.phase_diagram import *
 from pymatgen.io.ase import *
 from pymatgen.io.vasp import Vasprun
 from ase.io import read
 
-MAPI_KEY = 'your_mapi_key'
+MAPI_KEY = 'rcMxEqqid0uTST3ZKr'
 mpr = MPRester(MAPI_KEY)
 
 compat = MaterialsProjectCompatibility()
