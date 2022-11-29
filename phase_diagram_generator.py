@@ -8,7 +8,7 @@ from pymatgen.io.ase import *
 from pymatgen.io.vasp import Vasprun
 from ase.io import read
 
-MAPI_KEY = 'rcMxEqqid0uTST3ZKr'
+MAPI_KEY = 'XXXXXXXXXXXXXXXXXXXX'
 mpr = MPRester(MAPI_KEY)
 
 compat = MaterialsProjectCompatibility()
